@@ -1,0 +1,34 @@
+{
+  "name": "game_of_life_kata",
+  "version": "1.0.0",
+  "description": "GameOfLifeKata",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha spec/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stoiet/game_of_life_kata.git"
+  },
+  "author": "Beretka Robert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stoiet/game_of_life_kata/issues"
+  },
+  "homepage": "https://github.com/stoiet/game_of_life_kata",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "eslint": "^0.21.2",
+    "mocha": "^2.2.5"
+  },
+  "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "rules": {
+          "no-underscore-dangle": false,
+          "no-undef": false,
+          "no-unused-expressions": false
+        }
+  }
+}
